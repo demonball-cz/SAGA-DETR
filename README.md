@@ -17,28 +17,6 @@ This project is derived from
 under Apache License 2.0. The original license is preserved in `LICENSE`, and
 additional attribution is provided in `NOTICE`.
 
-## What Is Included
-
-- Core SAGA-DETR model code under `models/`
-- Dataset/transforms/optimizer utilities
-- SAGA-DETR VisDrone config under `configs/saga_detr/`
-- Training entry point: `main.py`
-- Lightweight VisDrone conversion, benchmark, visualization, and smoke-test
-  scripts under `tools/`
-
-## What Is Not Included
-
-The release intentionally does **not** include:
-
-- VisDrone data
-- checkpoints or pretrained weights
-- local `runs/` outputs
-- cloned external baseline repositories
-- local paper patch files
-
-These files are ignored by `.gitignore` and should be downloaded or generated
-separately.
-
 ## Installation
 
 Create and activate your environment, then install dependencies with pip:
