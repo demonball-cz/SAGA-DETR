@@ -53,6 +53,31 @@ data/visdrone_coco/
 
 The image folders can contain copied images or symlinks.
 
+## Pretrained Checkpoints
+
+We provide the pretrained checkpoint of SAGA-DETR trained on VisDrone2019-DET for 12 epochs. This checkpoint corresponds to the experimental setting reported in our manuscript submitted to *The Visual Computer*.
+
+| Dataset | Backbone | Epochs | AP | AP50 | Params | GFLOPs | Checkpoint |
+|---|---|---:|---:|---:|---:|---:|---|
+| VisDrone2019-DET | ResNet-50 | 12 | 31.3 | 51.9 | 56.8M | 207.4 | [Baidu Netdisk](https://pan.baidu.com/s/1AeVtz7HxbGdF7yc9lcFatA?pwd=2333) |
+
+Baidu Netdisk extraction code: `2333`
+
+Please download the checkpoint and place it under the `checkpoints/` directory:
+
+```bash
+mkdir -p checkpoints
+```
+
+Expected checkpoint layout:
+
+```text
+checkpoints/
+  saga_detr_r50_visdrone2019_det_12e.pth
+```
+
+> Note: The Baidu Netdisk link is provided for convenient checkpoint download. A permanent archived release with DOI will be provided through Zenodo when available.
+
 ## Training
 
 SAGA-DETR base setting on VisDrone, without ACML/GSDA/BBCR:
@@ -98,16 +123,16 @@ python tools/smoke_train_step.py
 
 Apache License 2.0. See `LICENSE` and `NOTICE`.
 
+## Citation
+
 If you use this code, pretrained models, or experimental results in your research, please cite our paper and this repository.
 
+```bibtex
 @article{saga_detr_2026,
   title   = {SAGA-DETR: Stabilized Query Assignment and Geometry-Aware Boundary Refinement for Small Object Detection in Aerial Imagery},
-
-  author  = {Your Name and Coauthor Name and Coauthor Name},
-
+  author  = {Chen, Zhen and Liu, Zhilin and Yu, Chunlin},
   journal = {The Visual Computer},
-
   year    = {2026},
-  
   note    = {Manuscript submitted to The Visual Computer}
 }
+```
