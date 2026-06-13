@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code, pretrained models, or experimental results, please cite the associated paper and this archived software release."
+type: software
+title: "SAGA-DETR: Official Implementation"
+authors:
+
+* family-names: "Chen"
+  given-names: "Zhen"
+  email: "[zhen48440@gmail.com](mailto:zhen48440@gmail.com)"
+  orcid: "https://orcid.org/0009-0006-3388-0501"
+* family-names: "Liu"
+  given-names: "Zhilin"
+* family-names: "Yu"
+  given-names: "Chunlin"
+  repository-code: "https://github.com/demonball-cz/SAGA-DETR.git"
+  url: "https://github.com/demonball-cz/SAGA-DETR.git"
+  doi: "<Zenodo DOI>"
+  date-released: "2026-06-13"
+  license: "MIT"
+  keywords:
+* "DETR"
+* "object detection"
+* "aerial imagery"
+* "small object detection"
+* "geometry-aware attention"
+* "boundary-aware refinement"
+
+preferred-citation:
+type: article
+title: "SAGA-DETR: Stabilized Query Assignment and Geometry-Aware Boundary Refinement for Small Object Detection in Aerial Imagery"
+authors:
+- family-names: "Chen"
+given-names: "Zhen"
+email: "[zhen48440@gmail.com](mailto:zhen48440@gmail.com)"
+orcid: "https://orcid.org/0009-0006-3388-0501"
+- family-names: "Liu"
+given-names: "Zhilin"
+- family-names: "Yu"
+given-names: "Chunlin"
+journal: "The Visual Computer"
+year: 2026
+notes: "Manuscript submitted to The Visual Computer"

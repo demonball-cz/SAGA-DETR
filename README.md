@@ -100,10 +100,3 @@ Apache License 2.0. See `LICENSE` and `NOTICE`.
 
 If you use this code, pretrained models, or experimental results in your research, please cite our paper and this repository.
 
-@article{saga_detr_2026,
-  title   = {SAGA-DETR: Stabilized Query Assignment and Geometry-Aware Boundary Refinement for Small Object Detection in Aerial Imagery},
-  author  = {Your Name and Coauthor Name and Coauthor Name},
-  journal = {The Visual Computer},
-  year    = {2026},
-  note    = {Manuscript submitted to The Visual Computer}
-}
