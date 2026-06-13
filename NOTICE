@@ -1,0 +1,17 @@
+SAGA-DETR
+
+This repository is derived from Salience-DETR:
+https://github.com/xiuqhou/Salience-DETR
+
+Salience-DETR is licensed under the Apache License, Version 2.0. The original
+license text is preserved in LICENSE. Portions of the codebase, project
+structure, model components, dataset utilities, transforms, training loop, and
+documentation structure originate from Salience-DETR and are modified for the
+SAGA-DETR research project.
+
+SAGA-DETR additions include the VisDrone configuration and lightweight tools,
+Assignment Certificate Margin Loss (ACML), Geometry-aware Structured Deformable
+Attention (GSDA), and Boundary-Band Contrast Refinement (BBCR).
+
+No datasets, checkpoints, pretrained weights, or generated experiment artifacts
+are included in this release.

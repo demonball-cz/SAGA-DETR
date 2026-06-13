@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+conda-meta/
+
+# Data and outputs
+data/
+runs/
+outputs/
+checkpoints/
+paper_patch/
+qual_vis*/
+wandb/
+tf_log/
+
+# Weights and exported models
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.engine
+
+# External repositories
+external_models/
+pretrained/
+
+# Logs and temporary files
+*.log
+*.jsonl
+*.tmp
+*.bak
+*.zip
+*.tar
+*.gz
+*.7z
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

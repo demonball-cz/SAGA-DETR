@@ -1,0 +1,4 @@
+name: saga_detr
+dependencies:
+  - python=3.10
+  - pip
