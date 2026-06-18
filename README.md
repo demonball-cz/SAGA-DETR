@@ -123,16 +123,5 @@ python tools/smoke_train_step.py
 
 Apache License 2.0. See `LICENSE` and `NOTICE`.
 
-## Citation
 
-If you use this code, pretrained models, or experimental results in your research, please cite our paper and this repository.
 
-```bibtex
-@article{saga_detr_2026,
-  title   = {SAGA-DETR: Stabilized Query Assignment and Geometry-Aware Boundary Refinement for Small Object Detection in Aerial Imagery},
-  author  = {Chen, Zhen and Liu, Zhilin and Yu, Chunlin},
-  journal = {The Visual Computer},
-  year    = {2026},
-  note    = {Manuscript submitted to The Visual Computer}
-}
-```
